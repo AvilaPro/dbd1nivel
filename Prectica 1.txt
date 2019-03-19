@@ -1,0 +1,6 @@
+Piense en algunas bases de datos que utiliza con frecuencia en su cotidianidad. Hacer en bloc de notas.
+
+Escria tambien que dificultades tiene al acceder a los datos que se encuentran en estas bases de datos.
+
+R: Uso excel y la dificultad que presento solo es de disponibilidad de internet en el lugar o que el archivo solo este guardado localmente
+en alguna pc.
