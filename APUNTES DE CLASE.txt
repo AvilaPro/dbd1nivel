@@ -1,0 +1,28 @@
+APUNTES DE LA CLASE
+
+1.
+Piense en algunas bases de datos que utiliza con frecuencia en su cotidianidad. 
+Hacer en bloc de notas.
+
+Escria tambien que dificultades tiene al acceder a los datos que se encuentran en 
+estas bases de datos.
+
+R: Uso excel y la dificultad que presento solo es de disponibilidad de internet 
+en el lugar o que el archivo solo este guardado localmente
+en alguna pc.
+
+3.
+NO ASISTI, HAY QUE REPASAR CLAVES FORANEAS (FK) Y EL DESAFIO.
+
+4.
+ON DELETE CASCADE: si la clave foranea es eliminada tambien se eliminara el registro esn esa tabla.
+
+ON DELETE RESTRICT: si la clave foranea se intenta eliminar en su tabla de origen 
+y esta tiene un registro en una de las tablas a donde esta asociada, no nos permitira borrar.
+
+PARA DOCUMENTACION SQLITE IR A: SQLITE.ORG
+
+MER: Modelo Entidad Relacion
+
+Revisar draw.io para hacer el cuadro MER.
+
