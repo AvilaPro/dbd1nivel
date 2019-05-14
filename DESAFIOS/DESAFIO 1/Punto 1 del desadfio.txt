@@ -1,0 +1,16 @@
+1.- Nombre de la tarea: Inscripcion de alumnos.
+
+Breve descripcion: El alumno desea conocer informacion de las materias a las cuales se inscribira.
+
+Asuntos relacionados: Nombre de la materia, profesor de la materia, horario de la materia, salon de clases de la materia.
+
+
+Nombre de los datos	Descripcion				Regla de validacion
+IDAlumno		identifiacdor del alumno		requerido
+IDMateria		Identificador de la materia		requerido
+NombreAlum		Nombre del alumno a inscrib¡irse	Requerido
+NomMat			Nombre de la materia			requerido
+IDProf			Identificador del profesor		requerido
+NomProf			Nombre del profesor			requerido
+HoraMat			Horario de la materia			requerido
+IDSalon			Identifiacador del salon de la materia	requerido

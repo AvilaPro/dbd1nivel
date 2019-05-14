@@ -1,0 +1,14 @@
+Enunciado de la tarea 2 de la sección 2845
+
+Crear una nueva base de datos con una tabla para registrar los vehiculos que ingresan en un talle mecanico. Colocar todos los campos que considere necesario con sus respectivos tipos de datos para luego realizar las siguientes actividades:
+
+1.- Establecer al menos a 2 campos restricciones para hacer validaciones de campos
+
+2.- Agregar un campo autonumérico que sea la clave primaria de la tabla
+
+3.- Agregar al menos 2 campos que sean claves únicas (independientes por sí solas)
+
+4.- Agregar al menos 2 campos que sean una clave primaria única compuesta 
+4.1 - (Correccion posterior: la palabra "primaria no va" por ende el enunciado queda asi: clave unica compuesta).
+
+5.- Descargar e instalar balsamiq mockup para crear 2 interfaces, una para el listado de registros y otra para el registro y la edición, utilizando los elementos de captura de datos más apropiados segun el tipo de dato del campo

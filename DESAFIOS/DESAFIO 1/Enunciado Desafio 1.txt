@@ -1,0 +1,11 @@
+Una universidad necesita crear un sistema para llevar registro de la información académica. Desean que los alumnos puedan inscribirse a través de internet en las materias que van a ver. Un alumno necesita visualizar las materias que le tocan ver segun el pensum, qué profesor va a dictar la materia, en que horario y en que salon verá las clases. La universidad tiene varias carreras. Realizar las actividades prácticas que se describen a continuación:
+
+1.- Describir textualmente (en un block de notas) al menos 4 posibles tablas involucradas en este enunciado, con sus respectivos campos.
+
+2.- Crear un archivo de Excel, donde cada hoja del libro será una tabla. Colocar los campos y algunos registros
+
+3.- Instalar Db Browse for SQLite y crear una base de datos nueva.
+
+4.- Crear las tablas con sus respectivos campos, seleccionando el tipo de dato mas apropiado e indicando cuales campos pueden ser null y cuales no.
+
+5.- Agregar al menos 3 registros en cada tabla.
