@@ -1,0 +1,32 @@
+Enunciado de la tarea 3 de la sección 2845
+
+Dado el siguiente escenario:
+
+Los medicos de un hospital estan clasificados en internos, pasantes, masters. 
+
+Cada médico tiene una especialidad: pediatria, urología, traumatologia, entre otros.
+ 
+Los pacientes llegan a la emergencia, cuando llegan se registran sus datos personales, 
+entre ellos, de que ciudad provienen: barquisimeto, acarigua, cabudare, etc.
+ 
+Tambien se registran las aflicciones por las cuales llegan a emergencia (pueden ser varias), 
+pero eso se hace cada vez que necesitan atención inmediata, mientras que su registro personal se hace 
+una sola vez (la primera vez que asisten). Cuando un paciente es atendido por un medico, 
+se debe saber cual medico lo atendió.
+
+Para resolver este problema necesita las tablas: tipo_medico, especialidad, medico, ciudad, 
+paciente, aflicciones (posibles enfermadaes o aflicciones que puede tener un paciente al ir a emergencia), 
+visita_emergencia (donde se registra cada vez que el paciente va a la emergencia), 
+afliccion_emergencia (donde se registran las afliciones que tiene un paciente cuando asiste a la emergencia).
+ 
+Realizar las siguientes actividades:
+
+1.- Crear la base de datos y las tablas colocando las claves primarias correctamente
+
+2.- Agregar los campos que funcionaran como claves foráneas en las tablas correctas
+
+3.- Establecer en los campos que son clave foránea la tabla a la cual hacen referencia y el campo clave de esa tabla
+
+4.- Crear claves únicas compuestas en las tablas donde lo amerite
+
+5.- Agregar datos a todas las tablas, cumpliendo con la integridad referencial

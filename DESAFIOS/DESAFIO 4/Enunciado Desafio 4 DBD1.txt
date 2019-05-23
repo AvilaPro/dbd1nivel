@@ -1,0 +1,19 @@
+Enunciado de la tarea 4 de la sección 2845
+
+Realizar las siguientes actividades:
+
+1.- Usando un software como ClickChart crear el modelo entidad relacion (MER) de la base de datos 
+creada en el desafio anterior
+
+2.- Indicar en un cuadro de texto en el mismo MER, cuales son las relaciones que hay entre las tablas
+
+3.- Agregar a las tablas de la base de datos creada en el desafio anterior los desencadenantes 
+on delete y on update en las tablas donde haya claves foraneas
+
+4.- Crear una base de datos nueva, que contenga todas las tablas que aparecen en el MER que 
+esta en el archivo adjunto
+
+5.- Establecer correctamente las claves foraneas en las tablas correspondientes para cumplir 
+con las relaciones que indica el MER, colocando los desencadenantes on delete y on update en las tablas correctas
+
+Descargar Archivo Adjunto
