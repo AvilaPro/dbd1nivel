@@ -25,7 +25,8 @@ Realizar las siguientes actividades:
 
 2.- Agregar los campos que funcionaran como claves foráneas en las tablas correctas
 
-3.- Establecer en los campos que son clave foránea la tabla a la cual hacen referencia y el campo clave de esa tabla
+3.- Establecer en los campos que son clave foránea la tabla a la cual hacen referencia y el campo clave 
+de esa tabla
 
 4.- Crear claves únicas compuestas en las tablas donde lo amerite
 
