@@ -1,0 +1,173 @@
+
+
+CREATE TABLE `beneficiario` (
+  `idbeneficiario` int(11) NOT NULL
+);
+
+CREATE TABLE `ciudad` (
+  `idciudad` int(11) NOT NULL,
+  `nombre` varchar(45) DEFAULT NULL,
+  `pais_idpais` int(11) NOT NULL
+);
+
+
+
+CREATE TABLE evento (
+  idevento int(11) NOT NULL,
+  localidad_idlocalidad int(11) NOT NULL,
+  tipo_evento_idtipo_evento` int(11) NOT NULL,
+  oragnizador_idoragnizador` int(11) NOT NULL,
+  organizador_idorganizador` int(11) NOT NULL,
+  beneficiario_idbeneficiario` int(11) NOT NULL
+);
+
+
+
+CREATE TABLE fotos_evento (
+  idfotos_evento` int(11) NOT NULL,
+  evento_idevento` int(11) NOT NULL
+);  
+
+
+
+CREATE TABLE `gasto_x_evento` (
+  idgasto_x_evento int(11) NOT NULL,
+  evento_idevento int(11) NOT NULL,
+  evento_idevento1 int(11) NOT NULL,
+  proveedor_idproveedor int(11) NOT NULL,
+  tipo_gasto_idtipo_gasto int(11) NOT NULL
+);
+
+
+
+CREATE TABLE `localidad` (
+  idlocalidad int(11) NOT NULL,
+  ciudad_idciudad int(11) NOT NULL
+);  
+
+
+
+CREATE TABLE `organizador` (
+  idorganizador int(11) NOT NULL
+); 
+
+
+
+CREATE TABLE `pagos_externos` (
+  idpagos_externos int(11) NOT NULL,
+  evento_idevento int(11) NOT NULL
+); 
+
+
+
+CREATE TABLE `pais` (
+  idpais int(11) NOT NULL,
+  nombre varchar(45) DEFAULT NULL
+);  
+
+
+
+CREATE TABLE `participante` (
+  idparticipante int(11) NOT NULL
+);  
+
+
+CREATE TABLE `participante_x_evento` (
+  idparticipante_x_evento int(11) NOT NULL,
+  evento_idevento int(11) NOT NULL,
+  participante_idparticipante int(11) NOT NULL
+);  
+
+
+
+CREATE TABLE `patrocinante` (
+  idpatrocinante int(11) NOT NULL
+); 
+
+
+
+CREATE TABLE `patrocinante_x_evento` (
+  idpatrocinante_x_evento int(11) NOT NULL,
+  patrocinante_idpatrocinante int(11) NOT NULL,
+  evento_idevento int(11) NOT NULL,
+  tipo_patrocinio_idtipo_patrocinio int(11) NOT NULL
+);  
+
+
+
+CREATE TABLE `ponente` (
+  idponente int(11) NOT NULL,
+  ciudad_idciudad int(11) NOT NULL
+); 
+
+
+CREATE TABLE `ponente_x_evento` (
+  idponente_x_evento int(11) NOT NULL,
+  ponente_idponente int(11) NOT NULL,
+  evento_idevento int(11) NOT NULL,
+  tema_idtema int(11) NOT NULL
+);  
+
+
+
+CREATE TABLE `proveedor` (
+  idproveedor int(11) NOT NULL
+); 
+
+
+
+CREATE TABLE `puntos_venta` (
+  idpuntos_venta int(11) NOT NULL
+);  
+
+
+
+CREATE TABLE `puntos_venta_x_evento` (
+  idpuntos_venta_x_evento int(11) NOT NULL,
+  evento_idevento int(11) NOT NULL,
+  puntos_venta_idpuntos_venta int(11) NOT NULL
+); 
+
+
+CREATE TABLE `solicitud_patrocinio` (
+  idsolicitud_patrocinio int(11) NOT NULL,
+  evento_idevento int(11) NOT NULL
+); 
+
+
+
+CREATE TABLE `tema` (
+  idtema int(11) NOT NULL,
+  tipo_evento_idtipo_evento int(11) NOT NULL
+);  
+
+
+
+CREATE TABLE `tipo_entrada` (
+  idtipo_entrada int(11) NOT NULL
+);  
+
+
+
+CREATE TABLE `tipo_evento` (
+  idtipo_evento int(11) NOT NULL
+); 
+
+
+CREATE TABLE `tipo_evento_x_evento` (
+  idtipo_evento_x_evento int(11) NOT NULL,
+  evento_idevento int(11) NOT NULL,
+  tipo_entrada_idtipo_entrada int(11) NOT NULL
+);  
+
+
+
+CREATE TABLE `tipo_gasto` (
+  idtipo_gasto int(11) NOT NULL
+);  
+
+
+
+CREATE TABLE `tipo_patrocinio` (
+  idtipo_patrocinio int(11) NOT NULL
+);
