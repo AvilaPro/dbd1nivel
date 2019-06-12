@@ -3,7 +3,7 @@ NOTAS DEL DESAFIO:
 Realizar las siguientes actividades:
 
 1.- Usando un software como ClickChart crear el modelo entidad relacion (MER) de la base de datos 
-creada en el desafio anterior
+creada en el desafio anterior (MER_bd_desafio3_para_desafio4dbd1.ccd ver este archivo)
 
 2.- Indicar en un cuadro de texto en el mismo MER, cuales son las relaciones que hay entre las tablas
 
